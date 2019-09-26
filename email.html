@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>verification</title>
+</head>
+<body>
+
+ please Verify your email {{email}}
+    <div class = "form-group" action="http://127.0.0.1:5000/verify_mail" method="post">
+        <input type="hidden" name="email" value={{email}}
+        <button class="btn btn-lg btn-primary btn-block" type="submit">verify</button>
+
+    </div>
+
+
+
+</body>
+</html>
